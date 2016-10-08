@@ -43,6 +43,6 @@ LOCAL_MODULE := libmesa_compiler
 include $(MESA_COMMON_MK)
 include $(BUILD_STATIC_LIBRARY)
 
-include $(LOCAL_PATH)/Android.glsl.mk
+# include $(LOCAL_PATH)/Android.glsl.mk
 
 include $(LOCAL_PATH)/Android.nir.mk
